@@ -8,13 +8,15 @@ HOW TO INSTALL:
     make prepare
 
 HOW TO CONFIGURE:
-    Just on Doxygen configureation file and change what ever you want.
+    Just on Doxygen configureation file and change what ever you want.    
     But you have to leave last for strings. GENERATE_DOCSET is required.
+    
 -----------------------
 GENERATE_DOCSET   = YES
 DISABLE_INDEX     = YES
 SEARCHENGINE      = YES
 GENERATE_TREEVIEW = NO
+
 -----------------------
 
 HOW TO USE:
