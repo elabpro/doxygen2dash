@@ -9,15 +9,12 @@ Scripts for converting Doxygen documentation into dash format for Zeal
 
 ## HOW TO CONFIGURE
     Just on Doxygen configureation file and change what ever you want.    
-    But you have to leave last for strings. GENERATE_DOCSET is required.
+    But you have to leave last for strings. **GENERATE_DOCSET** is required.
     
-`-----------------------
-GENERATE_DOCSET   = YES
-DISABLE_INDEX     = YES
-SEARCHENGINE      = YES
-GENERATE_TREEVIEW = NO
-
------------------------`
+    GENERATE_DOCSET   = YES
+    DISABLE_INDEX     = YES
+    SEARCHENGINE      = YES
+    GENERATE_TREEVIEW = NO
 
 ## HOW TO USE
     make install
